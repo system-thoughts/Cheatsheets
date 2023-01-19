@@ -1,7 +1,7 @@
 ---
 title: "debug"
 linkTitle: "debug"
-weight: 2
+date: 2023-01-05
 icon: fa-solid fa-screwdriver-wrench
 description: >
   Debug and trace tools commonly used in Linux user/kernel mode

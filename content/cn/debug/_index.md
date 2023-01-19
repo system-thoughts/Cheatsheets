@@ -1,8 +1,8 @@
 ---
 title: "调测工具"
 linkTitle: "调测工具"
+date: 2023-01-05
 icon: fa-solid fa-screwdriver-wrench
-weight: 2
 description: >
   Linux用户态/内核态常用的调测、跟踪工具
 ---
