@@ -1,5 +1,5 @@
 ---
-title: "git lfs clone big file failure"
+title: "git lfs clone big file"
 linkTitle: "git-lfs"
 date: 2023-09-14
 tags: ["git-lfs"]
@@ -18,7 +18,7 @@ error: external filter 'git-lfs filter-process' failed
 fatal: kernel.tar.gz: smudge filter lfs failed
 ```
 
-## Solution
+### Solution
 1. skip big file download
 ```bash
 # git lfs install --skip-smudge
