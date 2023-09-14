@@ -39,9 +39,9 @@ Receiving objects: 100% (157582/157582), 1.37 GiB | 34.85 MiB/s, done.
 Resolving deltas: 100% (48892/48892), done.
 ```
 
-3. turn off the repo's git SSL config
+3. turn off the global git SSL config
 ```bash
-cd kernel/ && git config  http.sslverify false
+cd kernel/ && git config --global http.sslverify false
 ```
 
 4. retry to pull large file
