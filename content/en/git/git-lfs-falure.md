@@ -1,5 +1,5 @@
 ---
-title: "git lfs clone big file"
+title: "git lfs clone large file"
 linkTitle: "git-lfs"
 date: 2023-09-14
 tags: ["git-lfs"]
@@ -9,7 +9,7 @@ description: >
 ---
 
 
-## git-lfs download big file failure
+## git-lfs download large file failure
 ```bash
 Error downloading object: kernel.tar.gz (a49325e): Smudge error: Error downloading kernel.tar.gz (a49325e421068d58a3be21fa7bda9d81f9a5c2747ab51d9df55df38233b02ca9): batch response: Post "xxx": Gateway Time-out
 
@@ -20,7 +20,7 @@ fatal: kernel.tar.gz: smudge filter lfs failed
 ```
 
 ### Solution
-1. skip big file download
+1. skip large file download
 ```bash
 # git lfs install --skip-smudge
 
@@ -44,12 +44,12 @@ Resolving deltas: 100% (48892/48892), done.
 cd kernel/ && git config  http.sslverify false
 ```
 
-4. retry to pull big file
+4. retry to pull large file
 ```bash
 # git lfs pull
 ```
 
-5. reinstance LFS, git-lfs download big file finis
+5. reinstance LFS, git-lfs download large file finis
 ```bash
 # git lfs install --force
 
