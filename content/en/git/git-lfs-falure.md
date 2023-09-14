@@ -5,8 +5,9 @@ date: 2023-09-14
 tags: ["git-lfs"]
 categories: ["git"]
 description: >
-  This page will cover the needs and solutions to rewrite and alter Git history.
+  Git LFS is a command line extension and specification for managing large files with Git.
 ---
+
 
 ## git-lfs download big file failure
 ```bash
