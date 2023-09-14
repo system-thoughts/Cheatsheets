@@ -1,10 +1,11 @@
-
 ---
-title: "Long Page Title"
-linkTitle: "Short Nav Title"
-weight: 100
-description: >-
-     Page description for heading and indexes.
+title: "git lfs clone big file failure"
+linkTitle: "git-lfs"
+date: 2023-09-14
+tags: ["git-lfs"]
+categories: ["git"]
+description: >
+  This page will cover the needs and solutions to rewrite and alter Git history.
 ---
 
 ## git-lfs download big file failure
