@@ -12,6 +12,7 @@ description: >
 git commit --amend --author="NewAuthor <NewEmail@address.com>"
 {{< /card-code >}}
 
+
 {{< card-code header="**clone repo use specific name instead of original name**"  lang="bash" >}}
 git clone <repo_url> <specific_repo_name>
 {{< /card-code >}}
